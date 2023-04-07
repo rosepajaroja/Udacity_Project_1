@@ -41,12 +41,17 @@ ul {
     display: flex;
     gap: 50px;
     align-self: center;
+    flex: 1;
 }
 
 .featured {
     display: flex;
     flex-flow: column;
     align-items: center;
+}
+
+.card1, .card2, .card3 {
+    flex: 30%;
 }
 
 /** LATEST POSTS **/
