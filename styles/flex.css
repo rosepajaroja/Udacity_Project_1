@@ -39,13 +39,11 @@ ul {
 
 .featured-posts {
     display: flex;
-    flex-wrap: wrap;
     gap: 50px;
     align-self: center;
 }
 
 .featured {
-    flex: 1;
     display: flex;
     flex-flow: column;
     align-items: center;

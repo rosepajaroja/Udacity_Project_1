@@ -92,7 +92,10 @@ MEDIA QUERIES
     .featured-posts {
         grid-template-columns: 1fr;
         grid-template-areas: 
-        "card1 card2 card3";
+        "card1"
+        "card2"
+        "card3";
+    }
     }
 }
 
