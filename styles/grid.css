@@ -131,9 +131,9 @@ MEDIA QUERIES
           "entry entry sidebar";
     }
   
-    .featured-posts {
+    /*.featured-posts {
           grid-template-columns: repeat(3, 1fr);
           grid-template-areas: 
         "card1 card2 card3";
-    }
+    }*/
 }
