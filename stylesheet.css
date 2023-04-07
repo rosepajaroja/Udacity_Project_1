@@ -9,9 +9,9 @@
 @import url(./styles/article.css);
 @import url(./styles/blog.css);
 @import url(./styles/featured-contents.css);
-@import url(styles/flex.css);
+@import url(./styles/flex.css);
 @import url(styles/footer.css);
-@import url(styles/grid.css);
+@import url(./styles/grid.css);
 @import url(styles/header.css);
 @import url(styles/header-home.css);
 @import url(styles/latest-posts.css);
