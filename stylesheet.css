@@ -1,0 +1,93 @@
+/* ================================= 
+ IMPORTS
+==================================== */
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Rasa:wght@300&display=swap');
+
+/* CSS */
+@import url(/styles/article.css);
+@import url(/styles/blog.css);
+@import url(/styles/featured-contents.css);
+@import url(/styles/flex.css);
+@import url(/styles/footer.css);
+@import url(/styles/grid.css);
+@import url(/styles/header.css);
+@import url(/styles/header-home.css);
+@import url(/styles/latest-posts.css);
+@import url(/styles/main-area.css);
+@import url(/styles/page.css);
+
+/* ================================= 
+  Base Styles
+==================================== */
+
+body, a {
+    font-family: 'Rasa', serif;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+body {
+    color: #867070;
+    min-height: 100vh; 
+    margin: 0!important;
+}
+
+a {
+    color: #EAC7C7;
+}
+
+.button {
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    background-color: #A0C3D2;
+    color: #F7F5EB;
+    border-radius: 25px;
+    padding: 10px 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 15px;
+}
+
+/* HEADINGS */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 96px;
+}
+
+h2 {
+    font-size: 72px;
+}
+
+h3 {
+    font-size: 50px;
+    margin: 0;
+}
+
+h4 {
+    font-size: 32px;
+    color: #EAC7C7;
+    margin: 0;
+}
+
+h5 {
+    font-size: 28px;
+    margin: 0;
+}
+
+h6 {
+    font-size: 24px;
+    margin: 0;
+}
+
+blockquote {
+    font-style: italic;
+}

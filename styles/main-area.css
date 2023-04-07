@@ -1,0 +1,13 @@
+.header-img {
+    border-radius: 9999px;
+    filter: grayscale(80%);
+    width: 180px;
+}
+
+.main-area {
+    padding: 50px 0 50px 0;
+}
+
+.main-area .button {
+    margin-top: 50px;
+}

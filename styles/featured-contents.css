@@ -1,0 +1,39 @@
+.featured-contents {
+    background-color: #F5EBEB;
+    padding: 50px;
+}
+
+img {
+    width: 300px;
+}
+
+.featured-contents h3 {
+    padding-bottom: 40px;
+}
+
+.featured-contents h4 {
+    color: #867070;
+    font-family: 'Rasa', serif;
+    text-transform: none;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.featured-contents p {
+    color: #867070;
+    font-family: 'Rasa', serif;
+    text-transform: none;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: justify;
+}
+
+.featured .button {
+    font-size: 12px;
+    margin-top: auto;
+}
+
+.featured-posts {
+    width: 80%;
+}

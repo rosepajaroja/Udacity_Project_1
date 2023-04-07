@@ -1,0 +1,59 @@
+.latest-heading h3 {
+    padding: 40px 0 40px 0;
+}
+
+.blog-content {
+    width: 90%;
+}
+
+.entry-title, .sidebar-title h3{
+    color: #867070;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    padding-top: 15px;
+    font-weight: 600;
+}
+
+.sidebar {
+    background-color: #F7F5EB;
+    padding: 30px;
+}
+
+.latest-posts {
+    padding-bottom: 100px;
+}
+
+.posts p {
+    text-align: justify;
+}
+
+.posts a, .sidebar a {
+    color: #A0C3D2;
+    text-decoration: none;
+}
+
+.posts a:hover, .sidebar a:hover {
+    color: #EAC7C7;
+}
+
+.posts {
+    margin-bottom: 30px;;
+}
+
+.profile-photo {
+    border-radius: 9999px;
+}
+
+.sidebar img {
+    filter: grayscale(80%);
+    width: 180px;
+}
+
+.entry-date {
+    color: #EAC7C7;
+}
+
+.socials img {
+    width: 50px;
+}

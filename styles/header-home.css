@@ -1,0 +1,24 @@
+.header-home {
+    height: 80px;
+    background-color: #A0C3D2;
+}
+
+.navigation-home {
+    padding: 0;
+}
+
+.navigation-home a {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.navigation-home a:hover {
+    color: #EAC7C7;
+}
+
+.header-home li {
+    list-style: none;
+}

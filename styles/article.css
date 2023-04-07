@@ -1,0 +1,51 @@
+.article .posts {
+    border-bottom: #867070 1px solid;
+}
+
+.hero-title {
+    font-size: 72px;
+    color: #FFF;
+    padding: 50px;
+}
+
+.hero-header {
+    overflow: hidden;
+    position: relative;
+    height: 350px;
+    background: #867070;
+    margin-bottom: 40px;
+}
+
+.hero-img {
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
+}
+
+.hero-title, .post-entry-meta {
+    position: relative;
+}
+
+.post-entry-meta {
+    background-color: #F5EBEB;
+    width: 100vw;
+    padding: 5px 0 5px 0;
+}
+
+.share-icons img {
+    height: 50px;
+    width: auto;
+}
+
+.share-icons {
+    margin-top: 20px;;
+    padding: 10px;
+}
+
+.share h6 {
+    background-color: #F5EBEB;
+    padding: 10px;
+}

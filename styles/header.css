@@ -1,0 +1,32 @@
+.header {
+    background-color: #A0C3D2;
+    padding: 25px;
+}
+
+.site-title a  {
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+.navigation ul {
+    padding: 0;
+}
+
+.navigation ul a {
+    font-size: 24px;
+}
+
+.navigation ul a, .site-title a {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.navigation ul a:hover, .site-title a:hover {
+    color: #EAC7C7;
+}
+
+.header li {
+    list-style: none;
+}
