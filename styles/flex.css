@@ -48,10 +48,7 @@ ul {
     display: flex;
     flex-flow: column;
     align-items: center;
-}
-
-.card1, .card2, .card3 {
-    flex: 30%;
+    flex: 30%
 }
 
 /** LATEST POSTS **/
