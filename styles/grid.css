@@ -1,4 +1,3 @@
-/* HOMEPAGE */
 .blog-content {
     display: grid;
     grid-template-columns: 1fr;
@@ -53,8 +52,31 @@
 MEDIA QUERIES
 ==================================== */
 
-/* HOMEPAGE */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
+    .blog-content {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas:
+        "entry"
+        "sidebar";
+    }
+
+    .page-content-area {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+          "entry"
+          "sidebar";
+    }
+
+    .featured-posts {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "card1"
+        "card2"
+        "card3";
+    }
+}
+
+@media (min-width: 768px) {
     .blog-content {
       grid-template-columns: repeat(3, 1fr);
       grid-template-areas:
@@ -70,9 +92,7 @@ MEDIA QUERIES
     .featured-posts {
         grid-template-columns: 1fr;
         grid-template-areas: 
-        "card1"
-        "card2"
-        "card3";
+        "card1 card2 card3";
     }
 }
 
@@ -92,9 +112,7 @@ MEDIA QUERIES
     .featured-posts {
         grid-template-columns: 1fr;
         grid-template-areas: 
-        "card1"
-        "card2"
-        "card3";
+        "card1 card2 card3";
     }
 }
   
