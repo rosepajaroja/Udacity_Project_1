@@ -3,7 +3,7 @@ BASE STYLES
 ==================================== */
 
 .blog-content {
-    width: 90%;
+    padding: 50px;
 }
 
 .latest-heading h3 {
