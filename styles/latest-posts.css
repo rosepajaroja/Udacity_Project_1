@@ -2,10 +2,6 @@
     padding: 40px 0 40px 0;
 }
 
-.blog-content {
-    width: 90%;
-}
-
 .entry-title, .sidebar-title h3, .entry-title a{
     color: #867070;
     text-transform: uppercase;
