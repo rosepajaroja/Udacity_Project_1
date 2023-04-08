@@ -54,17 +54,17 @@ MEDIA QUERIES
 
 @media (max-width: 600px) {
     .blog-content {
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-areas:
+        grid-template-columns: 1fr;
+        grid-template-areas:
         "entry"
         "sidebar";
     }
 
     .page-content-area {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr;
         grid-template-areas:
-          "entry"
-          "sidebar";
+        "entry"
+        "sidebar";
     }
 
     .featured-posts {
@@ -78,15 +78,17 @@ MEDIA QUERIES
 
 @media (min-width: 768px) {
     .blog-content {
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-areas:
-        "entry entry sidebar";
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "entry"
+        "sidebar";
     }
 
     .page-content-area {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr;
         grid-template-areas:
-          "entry entry sidebar";
+        "entry"
+        "sidebar";
     }
 
     .featured-posts {
@@ -102,13 +104,13 @@ MEDIA QUERIES
     .blog-content {
         grid-template-columns: repeat(3, 1fr);
         grid-template-areas:
-          "entry entry sidebar";
+        "entry entry sidebar";
     }
 
     .page-content-area {
         grid-template-columns: repeat(3, 1fr);
         grid-template-areas:
-          "entry entry sidebar";
+        "entry entry sidebar";
     }
   
     .featured-posts {
@@ -122,18 +124,18 @@ MEDIA QUERIES
     .blog-content {
         grid-template-columns: repeat(3, 1fr);
         grid-template-areas:
-          "entry entry sidebar";
+        "entry entry sidebar";
     }
 
     .page-content-area {
         grid-template-columns: repeat(3, 1fr);
         grid-template-areas:
-          "entry entry sidebar";
+        "entry entry sidebar";
     }
   
     .featured-posts {
-          grid-template-columns: repeat(3, 1fr);
-          grid-template-areas: 
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
         "card1 card2 card3";
     }
 }
