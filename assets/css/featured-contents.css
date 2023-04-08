@@ -7,6 +7,10 @@ BASE STYLES
     padding: 50px;
 }
 
+.featured-heading {
+    text-align: center;
+}
+
 .featured-card {
     border: solid #EAC7C7 1px;
     padding: 15px;

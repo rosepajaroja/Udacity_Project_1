@@ -8,6 +8,7 @@ BASE STYLES
 
 .latest-heading h3 {
     padding: 40px 0 40px 0;
+    text-align: center;
 }
 
 .entry-title, .sidebar-title h3, .entry-title a{
