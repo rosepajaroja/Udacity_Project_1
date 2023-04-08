@@ -33,21 +33,8 @@ ul {
     flex-direction: column;
 }
 
-.featured-heading, .heading {
+.featured-heading h3, .heading h2 {
     align-self: center;
-}
-
-.featured-posts {
-    display: flex;
-    gap: 50px;
-    align-self: center;
-    flex: 1;
-}
-
-.featured {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
 }
 
 /** LATEST POSTS **/
@@ -57,7 +44,7 @@ ul {
     flex-direction: column;
 }
 
-.latest-heading, .page-title {
+.latest-heading h3, .page-title, .hero-title {
     align-self: center;
 }
 
@@ -113,4 +100,14 @@ ul {
     align-items: center;
     flex-wrap: wrap;
     flex-basis: 0;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+}
+
+.posts img, .posts p {
+    align-self: center;
+    flex: 0 1 auto;
 }

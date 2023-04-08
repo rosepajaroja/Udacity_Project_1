@@ -6,17 +6,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Rasa:wght@300&display=swap');
 
 /* CSS */
-@import url(styles/article.css);
-@import url(styles/blog.css);
-@import url(styles/featured-contents.css);
-@import url(styles/flex.css);
-@import url(styles/footer.css);
-@import url(styles/grid.css);
-@import url(styles/header.css);
-@import url(styles/header-home.css);
-@import url(styles/latest-posts.css);
-@import url(styles/main-area.css);
-@import url(styles/page.css);
+@import url(assets/css/article.css);
+@import url(assets/css/blog.css);
+@import url(assets/css/featured-contents.css);
+@import url(assets/css/flex.css);
+@import url(assets/css/footer.css);
+@import url(assets/css/grid.css);
+@import url(assets/css/header.css);
+@import url(assets/css/header-home.css);
+@import url(assets/css/latest-posts.css);
+@import url(assets/css/main-area.css);
+@import url(assets/css/page.css);
 
 /* ================================= 
   Base Styles
@@ -39,7 +39,16 @@ a {
     color: #EAC7C7;
 }
 
-.button {
+figcaption {
+    font-family: 'Rasa', serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #A0C3D2;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+button {
     font-family: 'Barlow', sans-serif;
     font-size: 16px;
     background-color: #A0C3D2;
@@ -50,6 +59,8 @@ a {
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-top: 15px;
+    border: 0;
+    cursor: pointer;
 }
 
 /* HEADINGS */

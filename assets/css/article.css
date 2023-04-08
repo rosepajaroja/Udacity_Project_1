@@ -50,6 +50,11 @@
     padding: 10px;
 }
 
+.posts img {
+    max-width: auto;
+    max-height: 400px;
+}
+
 /* ================================= 
 MEDIA QUERIES
 ==================================== */

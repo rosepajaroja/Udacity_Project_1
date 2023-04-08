@@ -1,6 +1,6 @@
 .featured-contents {
     background-color: #F5EBEB;
-    padding: 50px;
+    padding: 100px;
 }
 
 .featured-contents img {
@@ -21,7 +21,7 @@
     padding-top: 15px;
 }
 
-.featured-contents p {
+.featured p {
     color: #867070;
     font-family: 'Rasa', serif;
     text-transform: none;
@@ -30,7 +30,7 @@
     text-align: justify;
 }
 
-.featured .button {
+.featured button {
     font-size: 12px;
     margin-top: auto;
 }

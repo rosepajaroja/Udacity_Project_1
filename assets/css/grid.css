@@ -6,7 +6,7 @@
     "sidebar";
 }
 
-.featured-posts {
+/*.featured-posts {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 50px;
@@ -15,7 +15,7 @@
     "card2"
     "card3";
 }
-
+*/
 .page-content-area {
     display: grid;
     grid-template-columns: 1fr;
@@ -31,7 +31,7 @@
 .sidebar {
     grid-area: sidebar;
 }
-
+/*
 .featured-post {
     grid-area: featured-post;
 }
@@ -47,7 +47,7 @@
 .card3 {
     grid-area: card3;
 }
-
+*/
 /* ================================= 
 MEDIA QUERIES
 ==================================== */
@@ -66,14 +66,13 @@ MEDIA QUERIES
         "entry"
         "sidebar";
     }
-
-    .featured-posts {
+   /* .featured-posts {
         grid-template-columns: 1fr;
         grid-template-areas: 
         "card1"
         "card2"
         "card3";
-    }
+    }*/
 }
 
 @media (min-width: 768px) {
@@ -90,14 +89,13 @@ MEDIA QUERIES
         "entry"
         "sidebar";
     }
-
-    .featured-posts {
+  /*  .featured-posts {
         grid-template-columns: 1fr;
         grid-template-areas: 
         "card1"
         "card2"
         "card3";
-    }
+    }*/
 }
 
 @media (min-width: 992px) {
@@ -112,12 +110,11 @@ MEDIA QUERIES
         grid-template-areas:
         "entry entry sidebar";
     }
-  
-    .featured-posts {
+    /*.featured-posts {
         grid-template-columns: 1fr;
         grid-template-areas: 
         "card1 card2 card3";
-    }
+    }*/
 }
   
 @media (min-width: 1200px) {
@@ -133,9 +130,9 @@ MEDIA QUERIES
         "entry entry sidebar";
     }
   
-    .featured-posts {
+   /* .featured-posts {
         grid-template-columns: repeat(3, 1fr);
         grid-template-areas: 
         "card1 card2 card3";
-    }
+    }*/
 }
