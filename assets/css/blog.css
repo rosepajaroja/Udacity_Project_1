@@ -1,3 +1,18 @@
+/* ================================= 
+BASE STYLES
+==================================== */
+
+/** PAGE **/
+.page-title h1 {
+    margin: 50px 0 50px 0;
+}
+
+.entry-page {
+    padding: 50px;
+}
+
+/** BLOG POST **/
+
 .post-grid {
     padding: 25px;
 }
@@ -29,4 +44,22 @@
 .post-grid .entry-meta {
     margin-top: auto;
     color: #A0C3D2;
+}
+
+/* ================================= 
+FLEX
+==================================== */
+
+.post-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 0;
 }

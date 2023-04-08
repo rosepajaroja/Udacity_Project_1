@@ -1,3 +1,7 @@
+/* ================================= 
+BASE STYLES
+==================================== */
+
 .header-img {
     border-radius: 9999px;
     filter: grayscale(80%);
@@ -5,9 +9,24 @@
 }
 
 .main-area {
-    padding: 50px 0 50px 0;
+    padding: 100px 0 100px 0;
 }
 
 .main-area .button {
     margin-top: 50px;
+}
+
+.main-area p {
+    max-width: 75%;
+}
+
+/* ================================= 
+FLEX
+==================================== */
+
+.main-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

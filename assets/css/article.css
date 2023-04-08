@@ -1,3 +1,7 @@
+/* ================================= 
+BASE STYLES
+==================================== */
+
 .article .posts {
     border-bottom: #867070 1px solid;
 }
@@ -21,7 +25,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 100vw;
+    width: 100%;
     height: auto;
 }
 
@@ -52,7 +56,43 @@
 
 .posts img {
     max-width: auto;
+    min-width: 200px;
     max-height: 400px;
+}
+
+/* ================================= 
+FLEX
+==================================== */
+
+.posts {
+    display: flex;
+    flex-direction: column;
+}
+
+.posts img {
+    align-self: center;
+    flex: 0 1 auto;
+}
+
+/* ================================= 
+GRID
+==================================== */
+
+.page-content-area {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "entry"
+    "sidebar";
+}
+
+.page-content {
+    grid-area: entry;
+}
+
+.sidebar {
+    grid-area: sidebar;
 }
 
 /* ================================= 
@@ -68,6 +108,13 @@ MEDIA QUERIES
     .hero-header {
         height: 300px;
     }
+
+    .page-content-area {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "entry"
+        "sidebar";
+    }
 }
 
 @media (min-width: 768px) {
@@ -78,6 +125,13 @@ MEDIA QUERIES
     
     .hero-header {
         height: 300px;
+    }
+
+    .page-content-area {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "entry"
+        "sidebar";
     }
 }
 
@@ -90,6 +144,12 @@ MEDIA QUERIES
     .hero-header {
         height: 350px;
     }
+
+    .page-content-area {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+        "entry entry sidebar";
+    }
 }
   
 @media (min-width: 1200px) {
@@ -100,5 +160,11 @@ MEDIA QUERIES
     
     .hero-header {
         height: 350px;
+    }
+
+    .page-content-area {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+        "entry entry sidebar";
     }
 }
