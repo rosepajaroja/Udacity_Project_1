@@ -1,2 +1,32 @@
+.post-grid {
+    padding: 25px;
+}
 
+.post-grid h6 a, .post-grid a {
+    text-decoration: none;
+    color: #867070;
+}
 
+.post-grid h6 a {
+    font-size: 25px;
+}
+
+.card {
+    border: solid #EAC7C7 1px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.133);
+    background-color: #F7F5EB;
+}
+
+.post-grid img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin-top: auto;
+}
+
+.post-grid .entry-meta {
+    margin-top: auto;
+    color: #A0C3D2;
+}
