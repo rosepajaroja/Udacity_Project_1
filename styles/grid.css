@@ -98,7 +98,7 @@ MEDIA QUERIES
         "card2"
         "card3";
     }
-    }
+}
 
 @media (min-width: 992px) {
     .blog-content {

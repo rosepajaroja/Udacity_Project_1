@@ -4,7 +4,7 @@
 }
 
 .featured-contents img {
-    height: 180px;
+    height: 300px;
     width: auto;
 }
 
@@ -36,5 +36,5 @@
 }
 
 .featured-posts {
-    width: auto;
+    width: 80%;
 }
