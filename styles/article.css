@@ -3,15 +3,15 @@
 }
 
 .hero-title {
-    font-size: 72px;
+    font-size: 48px;
     color: #FFF;
-    padding: 50px;
+    padding: 30px;
 }
 
 .hero-header {
     overflow: hidden;
     position: relative;
-    height: 350px;
+    height: 300px;
     background: #867070;
     margin-bottom: 40px;
 }
@@ -48,4 +48,52 @@
 .share h6 {
     background-color: #F5EBEB;
     padding: 10px;
+}
+
+/* ================================= 
+MEDIA QUERIES
+==================================== */
+
+@media (max-width: 600px) {
+    .hero-title {
+        font-size: 48px;
+        padding: 30px;
+    }
+    
+    .hero-header {
+        height: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-title {
+        font-size: 48px;
+        padding: 30px;
+    }
+    
+    .hero-header {
+        height: 300px;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero-title {
+        font-size: 72px;
+        padding: 50px;
+    }
+    
+    .hero-header {
+        height: 350px;
+    }
+}
+  
+@media (min-width: 1200px) {
+    .hero-title {
+        font-size: 72px;
+        padding: 50px;
+    }
+    
+    .hero-header {
+        height: 350px;
+    }
 }
