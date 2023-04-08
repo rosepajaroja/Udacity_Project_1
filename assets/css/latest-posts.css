@@ -29,9 +29,9 @@ BASE STYLES
     padding: 50px;
 }
 
-.posts p {
+/*.posts p {
     text-align: justify;
-}
+}*/
 
 .posts a, .sidebar a {
     color: #A0C3D2;
@@ -131,6 +131,9 @@ GRID
         "entry"
         "sidebar";
     }
+    .entry-page {
+        padding: 10px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -140,6 +143,9 @@ GRID
         "entry"
         "sidebar";
     }
+    .entry-page {
+        padding: 10px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -148,6 +154,9 @@ GRID
         grid-template-areas:
         "entry entry sidebar";
     }
+    .entry-page {
+        padding: 20px;
+    }
 }
   
 @media (min-width: 1200px) {
@@ -155,5 +164,8 @@ GRID
         grid-template-columns: repeat(3, 1fr);
         grid-template-areas:
         "entry entry sidebar";
+    }
+    .entry-page {
+        padding: 50px;
     }
 }
